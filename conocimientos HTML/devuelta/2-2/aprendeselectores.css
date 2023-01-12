@@ -1,0 +1,42 @@
+/* SELECTORES */
+/* selectores simple
+.elementales
+    selector universal=*
+    selector de etiqueta= el valor de la etiqueta
+.de atributo
+    id
+    class
+    otros atributos
+     [href]
+     [href=valor]
+     [href^=valor(con la palabra inicial)]
+     [href*=valor(con cualquier palabra)]
+     [href$=valor(con la ultima palabra)]
+selectores compuestos
+.agrupados
+    selector,selector,selector
+.combinadores
+    selector descendiente
+    ejemplo= etiqueta atributodeclass que se quiera div .friki{}
+
+    selector de hermano siguiente con el + (solo funciona con el siguiente elemento)
+    selector de hermanos siguientes con el ~ (funciona con los asignados)
+pseudoclases-pseudoelementos
+ */
+
+ /* a[href^="https"] {
+    color: green;}
+a[href*="alcaldia"] {
+        color: rgb(199, 16, 16);}    */
+
+/* .texto-1,
+.texto-2{background-color: blue;} */
+
+ /* body + h1{background-color: tomato} */
+ /* header~ p {background-color: aqua;}  */
+
+/* a[href="https://yes.com.co"] {color: chocolate;}
+a[href*="alcaldia"] {color: brown;}
+[class^="texto"] {background-color: cadetblue;}
+ */
+ 

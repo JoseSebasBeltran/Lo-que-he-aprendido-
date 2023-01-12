@@ -1,0 +1,164 @@
+/* poseemos las propiedades:
+display:flex, encargada de convertir todos los hijos de un contenedor en un esquema de boxflex
+display:inline-flex; este cumple la mis función de un inline-block pero con el comportamiento de una flexbox.
+después de colocar la propiedad display:flex se puede colocar en flex-direction,
+propiedad que se puede dar en 4 maneras:
+flex-direction: row
+flex-direction: column
+flex-direction: row-reverse
+flex-direction:column-reverse
+los valores de "reverse" como su nombre lo indica cambian la posición de los elementos*/
+
+/* WRAP
+De manera predeterminada con Flexbox los elementos se colocan en el eje de la horizontal, en una fila. 
+Si los elementos tienen unas dimensiones tales que no quepan en el contenedor, 
+el comportamiento flex hará que se intenten agrupar en la fila de manera que quepan bien sin saltar de línea, 
+pero también podemos configurado para hacer que, si no caben, se pasen a la línea siguiente.
+nowrap (predeterminado): hace que nunca se produzcan saltos de línea.
+wrap: hace que si no caben, entonces se coloquen en la siguiente línea.
+wrap-reverse: El salto de línea se producirá al contrario, o sea, hacia arriba. */
+
+/* JUSTIFY-CONTENT
+Es interesante como para tratarla de manera independiente y así poder ver varios ejemplos de ella.
+Veamos simplemente sus posibles valores:
+
+flex-start: Añade los elementos a partir del inicio del eje principal.
+flex-end: Añade los elementos a partir del final del eje principal.
+center: los elementos se centran en el espacio del contenedor, siempre con respecto al eje principal.
+space-between: hace que los elementos se distribuyan con un espacio proporcional entre ellos, 
+siendo que los ítem de los extremos se sitúan en el borde del contenedor.
+space-around: es parecido a space-between en el sentido de dejar un espaciado proporcional, sin embargo, 
+en esta ocasión se deja también espacio entre el borde 
+del contenedor y los ítem de los extremos. */
+
+/* ALIGN-ITEMS
+flex-start: indica que se posicionarán al comienzo del eje secundario.
+flex-end: se posicionarán al final del eje secundario.
+center: se posicionarán en el centro del eje secundario.
+stretch: ocuparán el tamaño total del eje secundario (a no ser que hayamos marcado que esos elementos tengan un tamaño diferente).
+baseline: para el posicionamiento de los elementos se tendrá en cuenta el texto que hay escrito dentro. */
+
+/* ejercicio 1 */
+
+/* 
+*{
+    box-sizing: border-box;
+}
+body {
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: #666;
+  }
+article {
+    background-color: #9ef;
+    margin: 5px;
+    flex-grow: 1;
+  }
+section{
+  display:flex;
+  /* flex-direction: column; */
+  /* flex-direction: row;
+  justify-content:space-around ;
+} */ 
+
+/* ejercicio2 */
+/* 
+ body {
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  color: #ddd;
+} */
+/* .flex-container {
+  display: flex;
+  flex-direction:column-reverse;
+}
+.item {
+  background-color: #369;
+  margin: 2px;
+  padding: 5px;
+  flex-grow: 1;
+} */
+
+/* ejercicio 3*/
+
+/* body {
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  color: #ddd;
+} */
+/* .flex-container {
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap ; */
+  /* o en su defecto simplificar con display:flex; 
+  flex-flow: row wrap; */
+/* }
+.item {
+  background-color: #369;
+  width: 33%;
+  padding: 5px;
+}
+*{
+  margin:0;
+  box-sizing: border-box;
+} */
+
+/* ejercicio 4 */
+
+/* *{
+  box-sizing: border-box;
+}
+body{
+  background-color: aquamarine;
+  color:blue
+}
+div[class*=contenedor]{
+  background-color: dimgray;
+  height: 70px;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+div[class*=numeros]{
+  background-color: orangered;
+  color:white;
+  text-align: center;
+  width: 15%;
+  height: 59px;
+  margin:4px;
+  margin-top: 5px;
+  padding: 20px;
+}
+.contenedor1{
+  justify-content: flex-start;
+}
+.contenedor2{
+  justify-content: flex-end;
+}
+.contenedor3{
+  justify-content: center;
+}
+.contenedor4{
+  justify-content: space-between;
+}
+.contenedor5{
+  justify-content: space-around;
+} */
+
+/* ejercicio5 */
+
+/* .contenedor1{
+ align-items: flex-start; 
+}
+.contenedor2{
+  align-items: flex-end;
+}
+.contenedor3{
+  align-items: center;
+}
+.contenedor4{
+  align-items: stretch;
+}
+.contenedor5{
+  align-items: baseline;
+} */

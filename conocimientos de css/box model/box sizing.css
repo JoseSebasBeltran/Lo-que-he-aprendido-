@@ -1,0 +1,5 @@
+/* box-sizing:border box, es la primera propiedad que se debe de colocar en un archivo de css de manera universal, esta genera una correcta distribución en el tamaño de la cajas en tanto el border. el content y el padding.
+ejemplo de ello: */
+*{
+    box-sizing:border-box; 
+}

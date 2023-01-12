@@ -1,0 +1,7 @@
+/* especificidad: establece como de especifico es un selector para saber que estilo aplicar. */
+/* el calculo de la formula:
+etiquetas y pseudoelementos (001)
+clases, atributos y pseudoclases (010)
+Ids (100)
+estilos en linea (1000) */
+/* LA ESPECIFICIDAD DEBE SER SIEMPRE LA MISMA PARA QUE FUNCIONE LA CASCADA */

@@ -1,0 +1,13 @@
+body{
+    color:brown; 
+    background-color: darksalmon;
+}
+.title{
+    background-color: cornsilk; 
+}
+.textoinicial{
+    background-color: aliceblue;
+    width: 200px;
+    height: 200px;
+}
+/* los elementos en linea NO se les puede cambiar el ancho y largo */

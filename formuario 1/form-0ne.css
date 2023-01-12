@@ -1,0 +1,57 @@
+
+  body {
+    background-image: url(images.jpg);
+    background-repeat:repeat ;
+  }
+  
+  .form-register {
+    width: 400px;
+    background: #471009;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color:white;
+    box-shadow: 7px 13px 37px white;
+  }
+  
+  h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #5f1205;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #f3f4f7;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+    margin: auto
+  }
+  
+  p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  .botons {
+    width: 100%;
+    background:rgb(196, 75, 4);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }

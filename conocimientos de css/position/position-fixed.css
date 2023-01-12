@@ -1,0 +1,6 @@
+.link {
+    position: fixed;
+    background-color: lightcoral;
+    width: 200px;
+}
+/* funciona igualitico al absolute con la diferencia de que sigue viéndose incluso con el scroll */

@@ -1,0 +1,8 @@
+*{background-color: #CFC;}
+.datos{color:#060}
+ul,p{color: #00F;font-family:georgia; font-size: 16px;}
+
+#titulo{color:#F00; font-family: Verdana; font-size:32px;}
+.libro{color: #A00; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:24px}
+strong{font-size:20px}
+.nebla{color:#FFF; background-color: #000;font-style: italic;}

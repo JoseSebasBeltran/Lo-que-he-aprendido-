@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    box-sizing:border-box;
+}
+body{
+    background-color: black;
+    color: aliceblue;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: burlywood;
+    border-radius: 200px;
+    border:20px double white;
+    overflow:hidden;
+/* pero se pueden escribir de manera independiente 
+ejemplo de ello: border-top-left-radius: 
+20px ; o border-bottom-right:20px */
+/* si lo que buscamos es crear un border radius elíptico, colocamos border-radius: 100px 50px/ 100px 50px; eso de manera general
+, pero de preferencia usar los bordes de manera especifica, ejemplo de ello: border-top-left-radius: 150px y border-top-right-radius: 150px */
+}
+.textocaja{
+    font-size: 14px;
+    padding: 50px;
+}

@@ -1,0 +1,31 @@
+/* Margin es necesaria para determinar el espacio que ocupara la caja; 
+esta se puede modificar en base a sus lados, según la cantidad de valores escogidos:
+4 valores: margin (top right bottom left, empezando desde arriba)
+3 valores: margin (el primer valor cambia arriba, el segundo a los lados y el tercero abajo)
+2 valores: margin (cambia el primer valor hacia arriba y abajo, seguido con el segundo valor que cambia derecha e izquierda)
+1 valores: margin por todos los lados*/
+ 
+
+body{
+    color:brown; 
+    background-color: darksalmon;
+}
+.title{
+    background-color: cornsilk; 
+    margin: 100px
+}
+.textoinicial{
+    background-color: aliceblue;
+    width: 200px;
+    height: 200px;
+    margin: 100px 50px
+}
+.list{
+    background-color: cadetblue;
+    margin: 100px 50px 10px
+}
+
+/* los elementos en linea solo tienen margenes horizontales, ejemplo de ello: margin-left o margin-right */
+
+/* el margin automático sirve para posicionar una caja por completo a cualquier dirección, como es para la izquierda, derecha o centro con (margin-right:auto y margin-left:auto)
+. Para el uso de "margin:auto" se necesita de un ancho (width) */

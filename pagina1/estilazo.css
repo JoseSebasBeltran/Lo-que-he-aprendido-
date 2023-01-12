@@ -1,0 +1,73 @@
+.cabezita{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background:rgba(172, 8, 8, 0.959); color:#F1C40F ;border:1px solid black}
+
+.cabezita h1{text-align: left;}
+
+div time{
+    font-size: 15px;
+    color:gray;}
+
+h1{font-weight:700;}
+
+body{
+    text-align: center; 
+    background:gray}
+
+header, footer, aside,section,nav, article, hgroup
+{display: block; }
+img {
+    max-width: 200%;
+    max-height: 200%;
+    margin: 0px auto;}
+.cat {
+    height: 200px;
+    width: 170px;
+    display: block;
+    margin: auto}
+.cat2{
+    height: 155px;
+    width: 110px;
+    display: block;
+    margin: auto}
+.agrupar{
+    width:950px;
+    border: 1px solid black;
+    margin-top: 0px ; 
+    margin-left:20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    background:white}
+.lalistica li{
+    list-style: none;
+    font:bold 14px verdana; 
+    display:inline-block;
+    padding: 5px;}
+.lalistica{
+    text-align: left;
+    background: #CD6155;
+    padding: 1px 0px; }
+.mamacita{
+    width: 600px;
+    margin:20px;
+    float:left;}
+article{
+    background:#F5B041;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 15px;}
+article footer{
+    text-align: right; 
+    margin-top: 20px;}
+.mensajitos{
+    width: 300px;
+    margin:20px 0;
+    float:left;}
+.mensajitos blockquote{
+    border: 1px solid black;
+    padding: 40px;
+    background:#F5B041;
+    margin-bottom: 20px;}
+.pie p{
+    clear:both;
+    background:#CD6155;
+    padding: 20px;}

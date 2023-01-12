@@ -1,0 +1,58 @@
+/* Transformaciones de texto
+      Text-transform: Esta propiedad nos permite hacer transformaciones ESTÉTICAS en nuestro texto.
+      Admite los valores:
+         none: No se aplicará ninguna transformación.
+         uppercase: El texto se pondrá en mayúsculas
+         lowercase: El texto se pondrá en minúsculas
+         capitalize: Transforma la primera letra de cada palabra en mayúscula.
+   Adornos en el texto
+      Text-decoration: Esta propiedad nos permite controlar la línea que podemos poner en los textos.
+      Admite los valores:
+         none: Elimina cualquier línea.
+         underline: Coloca una linea bajo el texto.
+         overline: Coloca una linea sobre el texto.
+         line-through: Coloca una linea tachando el texto.
+      Text-shadow: Funciona exactamente igual que box-shadow, con la única diferencia de que no admite el valor inset ni la expansión de la sombra.
+      Los valores son: 
+         offsetX: desplazamiento horizontal.
+         offsetY: desplazamiento vertical
+         blur: desenfoque.
+         color: color, por defecto coge el del texto.
+   
+   Espaciado en fuentes y textos
+    letter-spacing: Establece la separación entre caracteres, se puede establecer en cualquier medida válida para CSS
+    word-spacing: Establece la separación entre palabras,
+    se puede establecer en cualquier medida válida para CSS
+    line-height: Establece el alto de cada línea, se puede dar una medida concreta o se puede poner un número que se multipliará por el font size del texto al que se lo estemos aplicando.
+   Orientación del texto.
+   writing-mode: Establece la dirección del texto
+*/
+
+@font-face {
+  font-family: "Mano alzada";
+  src: local("Great Vibes"), url("../assets/fonts/GreatVibes-Regular.ttf");
+}
+
+body {
+  background-color: #333;
+  color: aliceblue;
+  font-family: sans-serif;
+}
+
+.text {
+  text-transform: uppercase;
+  /* writing-mode: vertical-rl; */
+  word-break: break-all;
+  width: 10px;
+  text-align: center;
+}
+
+.word-container {
+  background-color: lightcoral;
+  height: 100px;
+  text-align: center;
+}
+
+.word {
+  line-height: 100px;
+}

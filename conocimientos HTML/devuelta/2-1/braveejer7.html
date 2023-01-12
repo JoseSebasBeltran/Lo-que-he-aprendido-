@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang=" es">
+    <head>
+        <meta charset="utf-8">
+        <title>Formulario de registro - Mi web</title>
+    </head>
+    <body>
+        <h1>Formulario de registro</h1>
+
+        <form action="" method="get">
+
+            <label for="Nombre">Nombre:</label>
+             <input type="text" id="Nombre" placeholder="Ingrese nombre" maxlength="50">
+            <br><br>
+            <label for="Apellidos">Apellidos:</label>
+            <input type="text" id="Apellido" placeholder="Ingrese apellidos" maxlength="50">
+            <br><br>
+            <label for="Sexo">Sexo:</label>
+            <input type="radio" id="Sexo">Hombre
+            <input type="radio" id="Sexo">Mujer
+            <br><br>
+            <label for="correo">Correo:</label>
+            <input type="correo" placeholder="joseoses@gmail.com" maxlength="50" id="correo">
+            <br><br>
+            <label for="poblacion">Poblacion:</label>
+            <select id="poblacion">
+                <option value="Alicante">Alicante</option>
+                <option value="Madrid">Madrid</option>
+                <option value="Sevilla">Sevilla</option>
+                <option value="Valencia">Valencia</option>
+            </select>
+            <br><br>
+            <label for="descripcion">Descripción:</label>
+            <textarea name="descripcion" id="descripcion" rows="6" cols="60"></textarea>
+            <br>
+            <input type="checkbox">Deseo recibir información sobre novedades 
+            y ofertas" debe estar activada por defecto
+            <br>
+            <input type="checkbox">Declaro haber leido y aceptar las condiciones generales del 
+            programa y la normativa sobre proteccion de datos
+            <br><br>
+            <input type="submit">
+        </form>
+    </body>
+</html>

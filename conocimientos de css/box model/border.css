@@ -1,0 +1,32 @@
+/* ya existe un borde por defecto, en lo que se va enfocar la propiedad sera en la creación de un estilo para ese borde */
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color: blueviolet;
+}
+.title{
+    color:aliceblue
+}
+.textoinicial{
+    margin-top:20px;
+    background-color: burlywood; color: aliceblue;
+}
+.list{
+    background-color: burlywood; 
+    margin: 100px;
+    padding: 50px;
+    border: 15px solid white;
+    border-right-color:chocolate;
+    border-right-width:10px;
+    border-left-color: chocolate;
+    border-left-width: 10px;
+
+}
+/* existen dos maneras de colocar las propiedades del border, la primera opción:
+border-width:20px;
+border-style: solid;
+border-color: red
+la segunda opción de una manera mas simplificada:
+border: 20px solid red */

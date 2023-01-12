@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    background-color: black;
+    color: aliceblue;
+}
+header{
+    text-align: center;
+    background-color:brown;
+    padding-top:5px;
+    height: 400px;
+    position: sticky;
+    margin-bottom: 8px;
+}
+.menu{
+    position: sticky;
+    top:0px
+}
+
+h2[class*=articulo]{
+    position: sticky;
+    top:0px;
+    background-color: black;
+    
+}
+p{
+    margin:5px 5px
+}

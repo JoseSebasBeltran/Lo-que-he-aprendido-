@@ -1,0 +1,116 @@
+<html lang="es">
+    <head>
+        <meta charset= "UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>CONSOLA</title>
+        <a rel="stylesheet" href="oasdfj.css">
+    </head>
+    <body>
+
+
+        <script>
+
+        let maria = 3;
+console.log(maria);
+        let saludos = "holi, buenas, que hace, qhubo";
+        // // console.log(saludos.toUpperCase())
+        //     console.log(saludos.includes("holi"))
+            console.log(saludos.split("."));
+    let desayuno =[ 
+        2 , "huevos", "chocolate"
+    ];
+    let almuerzo =[
+        "arroz", "carne", "papa", "jugo",
+    ];
+    let cena =[
+       , "cafe", "pan"
+    ];
+    
+    let comidasDiaria =`3 Comidas diarias compuestas por ${desayuno} ${almuerzo} ${cena}`;
+    
+    console.log(desayuno, almuerzo, cena, comidasDiaria);
+const  CANTORES = [
+    "Pastor Lopez", "Loco Quintero", "Rodolfo Aicardi"
+        ]
+console.log(CANTORES);
+CANTORES.push("Julio Jaramillo");
+const FLORES = {
+    rosa: "roja", 
+    margarita: "amarilla",
+ };
+ console.log(FLORES);
+ FLORES.clavel = "blanco";
+
+//  NUMBERS
+let number= 3;
+let number2= 4.45;
+let number3="5.4";
+console.log(parseInt(number2));
+console .log(parseFloat(number2));
+console.log(number + parseInt(number3));
+console.log(number2 * parseFloat(number3));
+
+let carajo;
+let oye = null;
+let multiplicacion = 3 * "hola";
+console.log(carajo);
+console.log(oye);
+console.log(multiplicacion);
+
+
+// FUNCTIONS
+    //  Declaración de function
+function proceso (){
+ console.log(1);
+ console.log(2);
+ console.log(3);
+ return "numeros primarios"
+};
+    // invocacion de funcion
+proceso()
+proceso()
+
+let cumpledevuelve =proceso()
+console.log (proceso);
+
+
+function saludar(nombre = "desconocido", edad = 0){
+    console.log(`Hola mi nombre es ${nombre} y tengo ${edad}`)
+}
+saludar("Jose", 18)
+
+// FUNCIÓN EXPRESADA
+
+const SOYUNAFUNCION = function (){
+    console.log("empecemos a imprimir")
+}
+SOYUNAFUNCION()
+
+const JOSE ={
+    nombre:"Jose",
+    apellido: "Beltrán",
+    edad:18,
+    pasatiempos: ["jugar","tocar piano","escribir"],
+    soltero: true,
+    contacto: {
+        email:"josesebastianrobe@gmail.com",
+        numero:30235353535,
+    },
+    saludar:function (){
+        console.log("hola mundo")
+    },
+    decirMiNombre: function (){
+        console.log(`hola me llamo ${this.nombre} ${this.apellido} y tengo ${this.edad} años y me puedes llamar al ${this.contacto.numero}`)
+    }
+};
+console.log(JOSE.nombre);
+console.log(JOSE.pasatiempos[2]);
+console.log(JOSE.contacto.email);
+JOSE.decirMiNombre();
+//  const prueba = function(){
+//     console.log("soy una prueba")
+//  };
+//  prueba();
+        </script>
+    </body>
+</html>

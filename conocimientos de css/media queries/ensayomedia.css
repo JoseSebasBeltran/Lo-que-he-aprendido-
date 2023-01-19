@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    border: 2px solid black;
+}
+@media (max-width:555px){
+    img{
+        width: 80%;
+        border-radius: 160px;
+        margin: auto;
+    }
+}
+/* cuando se habla de max-(width o height) es por que se quiere que todo lo que este por debajo de lo estipulado sea adaptado. 
+De max-width:500px hasta 500px de ancho es que se respetara los valores que se establezcan por debajo de 500px, ya sea 450px, 330px lo que sea por debajo de 500px */
+/* cuando se habla de min-(width o height) es para que lo establecido se empiece a cumplir desde lo establecido si se coloca un min-height:770px, desde ese mismo valor en adelante van a cambiar los valore y atributos asignados */
+/* EXISTEN DOS TÉCNICAS */
+/* Primera: DESKTOP FIRST, que es hacer primero la pagina para computadores y luego celulares */
+/* segunda(y mas recomendada): MOBIL FIRST, que es hacer primero la página en celular y luego en computadores */

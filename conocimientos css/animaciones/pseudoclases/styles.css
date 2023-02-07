@@ -1,0 +1,121 @@
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	--fondoPrimario: #FCF7F8;
+	--colorOscuro: #1A1E21;
+	--azul: #3860EC;
+}
+
+body {
+	background: var(--fondoPrimario);
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+ul {
+	margin: 0;
+}
+
+.contenedor {
+	max-width: 500px;
+	width: 90%;
+	padding: 30px;
+	border-radius: 20px;
+}
+
+.titulo {
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	color: var(--colorOscuro);
+	margin-bottom: 20px;
+}
+
+.grupo {
+	padding: 60px 0;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.grupo div p,
+.grupo div div,
+.grupo div span,
+.grupo ul li {
+	background: #dbdbdb;
+	padding: 10px;
+}
+
+/* ? ------------- PSEUDO-CLASES ------------- */
+
+
+/* .enlace:active{
+    background-color: tan;
+}
+.enlace:hover{
+    background-color: aquamarine;
+} */
+.enlace:link{
+    color: #3860EC;
+}
+.enlace:visited{
+    color: #1A1E21;
+}
+
+
+
+
+/* ? --- --- --- --- PARRAFOS --- --- --- --- */
+
+.parrafos p:first-child{
+    background-color: #3860EC;
+}
+.parrafos p:last-child{
+    background-color: blueviolet;
+}
+
+/* ? --- --- --- --- ELEMENTOS --- --- --- --- */
+
+.elementos p:first-of-type{
+    background-color: #3860EC;
+}
+.elementos div:last-of-type{
+    background-color:#1A1E21;
+}
+/* ? --- --- --- --- LISTA --- --- --- --- */
+/* :nth-last-child() cuenta de en la lista de la ultima a la primera, caso contrario de :nth-child() */
+.lista li:nth-last-child(3){
+    background-color: #3860EC;
+}
+.lista li:nth-child(3){
+    background-color: #3860EC;
+}
+.lista li:nth-child(odd){
+    background-color: brown;
+}
+.lista li:nth-child(even){
+    background-color: burlywood;
+}
+
+/* ? --- --- --- --- LISTA 2 --- --- --- --- */
+
+.lista2 p:nth-of-type(3){
+    background-color: burlywood;
+}
+
+/* ? --- --- --- --- LISTA 3 --- --- --- --- */
+
+.lista3 p:only-child{
+    background-color: aquamarine;
+}
+
+/* ? --- --- --- --- LISTA 4 --- --- --- --- */
